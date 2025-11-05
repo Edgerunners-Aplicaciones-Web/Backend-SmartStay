@@ -1,0 +1,6 @@
+@smartstay_backend_HostAddress = http://localhost:5115
+
+GET {{smartstay_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
