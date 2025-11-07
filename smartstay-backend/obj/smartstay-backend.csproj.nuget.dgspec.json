@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\OneDrive\\Documentos\\Docs\\Alexander\\Aplicaciones Web\\Rider\\smartstay-backend\\smartstay-backend\\smartstay-backend.csproj": {}
+    "/Users/alumnos/Development/2510/1asi0730/7454/Backend-SmartStay/smartstay-backend/smartstay-backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\OneDrive\\Documentos\\Docs\\Alexander\\Aplicaciones Web\\Rider\\smartstay-backend\\smartstay-backend\\smartstay-backend.csproj": {
+    "/Users/alumnos/Development/2510/1asi0730/7454/Backend-SmartStay/smartstay-backend/smartstay-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\OneDrive\\Documentos\\Docs\\Alexander\\Aplicaciones Web\\Rider\\smartstay-backend\\smartstay-backend\\smartstay-backend.csproj",
+        "projectUniqueName": "/Users/alumnos/Development/2510/1asi0730/7454/Backend-SmartStay/smartstay-backend/smartstay-backend.csproj",
         "projectName": "smartstay-backend",
-        "projectPath": "C:\\Users\\Alexander\\OneDrive\\Documentos\\Docs\\Alexander\\Aplicaciones Web\\Rider\\smartstay-backend\\smartstay-backend\\smartstay-backend.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\OneDrive\\Documentos\\Docs\\Alexander\\Aplicaciones Web\\Rider\\smartstay-backend\\smartstay-backend\\obj\\",
+        "projectPath": "/Users/alumnos/Development/2510/1asi0730/7454/Backend-SmartStay/smartstay-backend/smartstay-backend.csproj",
+        "packagesPath": "/Users/alumnos/.nuget/packages/",
+        "outputPath": "/Users/alumnos/Development/2510/1asi0730/7454/Backend-SmartStay/smartstay-backend/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alumnos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,15 +38,77 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Cortex.Mediator": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "EntityFrameworkCore.CreatedUpdatedDate": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.5, )"
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
@@ -75,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/alumnos/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
