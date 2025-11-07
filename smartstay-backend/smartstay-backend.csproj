@@ -37,14 +37,6 @@
         <!-- Mediator pattern related packages -->
         <PackageReference Include="Cortex.Mediator" Version="2.1.0" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Shared\Application\Internetal\EventHandlers\" />
-      <Folder Include="Shared\Domain\Model\Events\" />
-      <Folder Include="Shared\Infrastructure\Interfaces\ASP\Configuration\Extensions\" />
-      <Folder Include="Shared\Infrastructure\Mediator\Cortex\Configuration\" />
-      <Folder Include="Shared\Infrastructure\Persistence\EFC\Configuration\Extensions\" />
-      <Folder Include="Shared\Infrastructure\Persistence\EFC\Repositories\" />
-    </ItemGroup>
+    
 
 </Project>
