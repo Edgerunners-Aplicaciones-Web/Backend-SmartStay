@@ -1,0 +1,105 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.log
+*.tlog
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+*.userprefs
+
+## Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.csproj.user
+*.rsuser
+*.psess
+*.vsp
+*.vspx
+*.pidb
+*.svclog
+*.pdb
+*.dbmdl
+
+## Visual Studio Code
+.history/
+.vscode/*
+
+# Exclude local settings but keep workspace config
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## ASP.NET Core configuration
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+## Package restore outputs
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+*.psmdcp
+*.ncrunchsolution
+*.ncrunchproject
+
+## Testing / Coverage
+TestResults/
+*.coverage
+*.coveragexml
+*.opencover.xml
+*.trx
+
+## Publish output
+publish/
+dist/
+out/
+wwwroot/dist/
+wwwroot/assets/
+node_modules/
+
+## Entity Framework
+*.db
+*.bak
+Migrations/
+
+## Logs and temp
+*.tmp
+*.temp
+*.bak
+*.cache
+*.config.backup
+*.sdf
+*.sqlite
+*.sqlite3
+
+## OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+## Backup / Restore files
+*.bak
+*.backup
+*.orig
+
+## OneDrive / Cloud conflicts
+~$*
+*.lnk
