@@ -1,10 +1,10 @@
 ## Build results
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
-*.log
-*.tlog
+/bin
+/obj
+/log
+/logs
+/*.log
+/*.tlog
 
 ## Rider / JetBrains
 .idea/
