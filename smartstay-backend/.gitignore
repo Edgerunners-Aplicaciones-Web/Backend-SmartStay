@@ -5,6 +5,8 @@
 /logs
 /*.log
 /*.tlog
+/obj/Debug/net9.0
+/obj/**/** */
 
 ## Rider / JetBrains
 .idea/
